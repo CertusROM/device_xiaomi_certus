@@ -15,9 +15,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/nad_certus.mk
+    $(LOCAL_DIR)/arrow_certus.mk
 
 COMMON_LUNCH_CHOICES := \
-    nad_certus-user \
-    nad_certus-userdebug \
-    nad_certus-eng
+    arrow_certus-user \
+    arrow_certus-userdebug \
+    arrow_certus-eng
