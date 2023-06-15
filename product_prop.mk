@@ -7,6 +7,11 @@ PRODUCT_PRODUCT_PROPERTIES  += \
    ro.config.system_vol_steps=15 \
    ro.config.ring_notification_vol_steps=15
 
+# Dalvik
+PRODUCT_PRODUCT_PROPERTIES  += \
+    dalvik.vm.dex2oat-filter=speed-profile \
+    dalvik.vm.image-dex2oat-filter=speed-profile
+
 # Display
 PRODUCT_PRODUCT_PROPERTIES  += \
    ro.sf.lcd_density=320
