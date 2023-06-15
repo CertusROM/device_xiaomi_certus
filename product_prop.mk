@@ -21,7 +21,9 @@ PRODUCT_PRODUCT_PROPERTIES  += \
     debug.sf.enable_gl_backpressure=1 \
     debug.sf.disable_client_composition_cache=1 \
     debug.renderengine.backend=skiaglthreaded \
-    debug.hwui.skia_atrace_enabled=false
+    debug.hwui.skia_atrace_enabled=false \
+    debug.sf.high_fps_early_gl_phase_offset_ns=-2000000 \
+    debug.sf.high_fps_late_sf_phase_offset_ns=-2000000
 
 # IMS
 PRODUCT_PRODUCT_PROPERTIES  += \
@@ -61,4 +63,3 @@ PRODUCT_PRODUCT_PROPERTIES  += \
    ro.surface_flinger.vsync_event_phase_offset_ns=8300000 \
    ro.surface_flinger.vsync_sf_event_phase_offset_ns=830000 \
    ro.surface_flinger.present_time_offset_from_vsync_ns=0
-
